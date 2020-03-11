@@ -60,6 +60,10 @@ Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photor
 - Install python libraries [dominate](https://github.com/Knio/dominate).
 ```bash
 pip install dominate
+
+## pip install ...
+pip install dominate -i http://pypi.douban.com/simple --trusted-host pypi.douban.com --user
+
 ```
 - Clone this repo:
 ```bash
@@ -121,6 +125,9 @@ In our test case, it trains about 80% faster with AMP on a Volta machine.
 - If your input is not a label map, please just specify `--label_nc 0` which will directly use the RGB colors as input. The folders should then be named `train_A`, `train_B` instead of `train_label`, `train_img`, where the goal is to translate images from A to B.
 - If you don't have instance maps or don't want to use them, please specify `--no_instance`.
 - The default setting for preprocessing is `scale_width`, which will scale the width of all training images to `opt.loadSize` (1024) while keeping the aspect ratio. If you want a different setting, please change it by using the `--resize_or_crop` option. For example, `scale_width_and_crop` first resizes the image to have width `opt.loadSize` and then does random cropping of size `(opt.fineSize, opt.fineSize)`. `crop` skips the resizing step and only performs random cropping. If you don't want any preprocessing, please specify `none`, which will do nothing other than making sure the image is divisible by 32.
+#### 
+- `python train.py --label_nc 0 --no_instance --resize_or_crop 1088 --gpu_ids 0,1 --no_flip --tf_log `
+- `python test.py --label_nc 0 --no_instance --resize_or_crop none --name bp_ab --resize_or_crop none --gpu_ids 0,1 --no_flip `
 
 ## More Training/Test Details
 - Flags: see `options/train_options.py` and `options/base_options.py` for all the training flags; see `options/test_options.py` and `options/base_options.py` for all the test flags.

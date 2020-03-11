@@ -19,6 +19,7 @@ class Visualizer():
         self.name = opt.name
         if self.tf_log:
             import tensorflow as tf
+            print("tf version--vis:", tf.__version__)
             self.tf = tf
             self.log_dir = os.path.join(opt.checkpoints_dir, opt.name, 'logs')
             self.writer = tf.summary.FileWriter(self.log_dir)
