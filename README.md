@@ -12,6 +12,7 @@ Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photor
   <img src='datasets/1_0732.jpg' width='400'/>
   <img src='datasets/binary_all732.jpg' width='400'/>
   <img src='datasets/result_1_0732.jpg' width='400'/>
+  <img src='datasets/1828.jpg' width='400'/>
 </p>
 - Image-to-image translation results
 <p align='center'>  
