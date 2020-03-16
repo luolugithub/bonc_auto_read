@@ -15,20 +15,17 @@ Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photor
 - Image-to-image translation results
 <p align='left'>  
   <img src='results/bonc/test_latest/1_0953_input_label.jpg' width='400'/>
-  <img src='datasets/black-arrow.png' width='100'/>
-  
+  <img src='datasets/black-arrow.png' width='50'/>
   <img src='results/bonc/test_latest/1_0953_synthesized_image.jpg' width='400'/>
 </p>
 <p align='left'>  
   <img src='results/bonc/test_latest/1_0968_input_label.jpg' width='400'/>
-  <img src='datasets/black-arrow.png.jpg' width='100'/>
-  
+  <img src='datasets/black-arrow.png' width='50'/>
   <img src='results/bonc/test_latest/1_0968_synthesized_image.jpg' width='400'/>
 </p>
 <p align='left'>  
   <img src='results/bonc/test_latest/1_0996_input_label.jpg' width='400'/>
-  
-  
+  <img src='datasets/black-arrow.png' width='50'/>
   <img src='results/bonc/test_latest/1_0996_synthesized_image.jpg' width='400'/>
 </p>
 
