@@ -15,8 +15,8 @@ Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photor
 </p>
 - Image-to-image translation results
 <p align='center'>  
-  <img src='results/bonc/test_latest/images/1_0953_input_label.jpg' width='400'/>
-  <img src='results/bonc/test_latest/images/1_0953_synthesized_image.jpg' width='400'/>
+  <img src='results/bonc/test_latest/1_0953_input_label.jpg' width='400'/>
+  <img src='results/bonc/test_latest/1_0953_synthesized_image.jpg' width='400'/>
 </p>
 
 
