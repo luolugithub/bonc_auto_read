@@ -1,8 +1,6 @@
-<img src='datasets/bonc/train_A/1_0762.jpg' align="right" width=360>
+<img src='datasets/bonc/train_A/1_0762.jpg' align="center" width=800>
 
-<br><br><br><br>
-
-# pix2pixHD
+# CONDITIONAL GAN: pix2pixHD
 ### [Project](https://tcwang0509.github.io/pix2pixHD/) 
 Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photorealistic image-to-image translation. It can be used for turning semantic label maps into photo-realistic images or synthesizing portraits from face label maps. 
 
